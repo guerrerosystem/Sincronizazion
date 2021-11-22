@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Nombre"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textViewName"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:background="@drawable/ic_shan_24"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/imageViewStatus"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+         />
+</RelativeLayout>
