@@ -34,6 +34,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 " TINYINT);";
         db.execSQL(sql);
     }
+    //actualizar
 
     //upgrading the database
     @Override
